@@ -8,4 +8,9 @@
     <Nullable>enable</Nullable>
     <Features>InterceptorsPreview</Features>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LanguageExt.Core" Version="4.4.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.1" />
+  </ItemGroup>
 </Project>
